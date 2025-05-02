@@ -45,8 +45,12 @@ The main goal of this project is to:
 
 ### 1. Exploratory Data Analysis
 - Overview of data structure and key statistics
-- Visualization of volume and price trends over time
+- Visualization of volume over time
+  ![Screenshot 2025-05-03 002909](https://github.com/user-attachments/assets/53b29f46-18e5-4646-bf1f-cfd74d1e6ca5)
 - Boxplots to analyze distribution by months and years
+  ![Screenshot 2025-05-03 003946](https://github.com/user-attachments/assets/15baaa8a-8292-4cf5-94d2-912020816b85)
+  ![Screenshot 2025-05-03 004007](https://github.com/user-attachments/assets/d5988679-b664-40e5-9836-26e1d97b49f1)
+  ![Screenshot 2025-05-03 004028](https://github.com/user-attachments/assets/53672631-d954-4cf0-a9a3-60f507c8f2a4)
 - Durbin-Watson test for autocorrelation
 
 ### 2. Data Preprocessing
@@ -57,12 +61,18 @@ The main goal of this project is to:
 
 ### 3. Time Series Decomposition
 - Seasonal decomposition of volume using `seasonal_decompose` from statsmodels
+  ![Screenshot 2025-05-03 001439](https://github.com/user-attachments/assets/2d0fd38d-709d-4d91-a36d-c01b8e5a6220)
+
 
 ### 4. Forecasting with Facebook Prophet
 - Prepare the data in Prophet’s expected format (`ds`, `y`)
 - Train Prophet on historical stock volume
 - Make future predictions and visualize them
 - Plot Prophet components: Trend, Weekly and Yearly seasonality
+ ![Screenshot 2025-05-03 002106](https://github.com/user-attachments/assets/e98439a2-50ad-49f3-8fc5-82c677fa2c82)
+ ![Screenshot 2025-05-03 002128](https://github.com/user-attachments/assets/a05469df-42c4-49cc-8c1f-2d8b4f8e7654)
+
+
 
 ---
 
